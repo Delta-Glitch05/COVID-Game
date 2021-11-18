@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Title_Screen/title_screen/buttons/MenuButton.gd" type="Script" id=1]
+[ext_resource path="res://Title_Screen/title_screen/fonts/montserrat_eb_48.tres" type="DynamicFont" id=2]
+
+[node name="MenuButton" type="Button"]
+margin_right = 200.0
+margin_bottom = 60.0
+rect_min_size = Vector2( 360, 60 )
+flat = true
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+scene_to_load = "Null"
+
+[node name="Label" type="Label" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 2
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color_shadow = Color( 1, 0.596078, 0, 1 )
+custom_constants/shadow_offset_x = 0
+custom_constants/shadow_offset_y = 5
+text = "Label"
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}

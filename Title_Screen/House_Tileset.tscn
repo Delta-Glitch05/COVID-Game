@@ -1,0 +1,41 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Tileset/Casa.png" type="Texture" id=1]
+[ext_resource path="res://Tileset/Hub_Vaccinale.png" type="Texture" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 141.538, 110.769 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 21.2381, 10.8645 )
+
+[node name="House_Tileset" type="Node2D"]
+
+[node name="House" type="Sprite" parent="."]
+position = Vector2( 0, 16 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 9, 87, 279, 213 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="House"]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="House/StaticBody2D"]
+position = Vector2( 0, -3.8147e-06 )
+shape = SubResource( 1 )
+
+[node name="Hub_Vaccinale" type="Sprite" parent="."]
+position = Vector2( -440, 152 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 2 )
+region_enabled = true
+region_rect = Rect2( 44, 93, 163, 159 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Hub_Vaccinale"]
+scale = Vector2( 2, 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hub_Vaccinale/StaticBody2D"]
+position = Vector2( 0, -19.7291 )
+scale = Vector2( 2, 2 )
+shape = SubResource( 2 )

@@ -1,0 +1,5 @@
+Comandi:
+Frecce direzionali/ wasd: movimento
+e: sparare
+
+Alla fine del labirinto si trova l'hub vaccinale

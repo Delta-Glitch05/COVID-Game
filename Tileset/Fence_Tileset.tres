@@ -1,0 +1,315 @@
+[gd_resource type="TileSet" load_steps=16 format=2]
+
+[ext_resource path="res://Tileset/Fence_1.png" type="Texture" id=1]
+[ext_resource path="res://Tileset/Fence_10.png" type="Texture" id=2]
+[ext_resource path="res://Tileset/Fence_3.png" type="Texture" id=3]
+[ext_resource path="res://Tileset/Fence_2.png" type="Texture" id=4]
+[ext_resource path="res://Tileset/Fence_8.png" type="Texture" id=5]
+[ext_resource path="res://Tileset/Fence_6.png" type="Texture" id=6]
+[ext_resource path="res://Tileset/Fence_11.png" type="Texture" id=7]
+[ext_resource path="res://Tileset/Fence_7.png" type="Texture" id=8]
+[ext_resource path="res://Tileset/Fence_5.png" type="Texture" id=9]
+[ext_resource path="res://Tileset/Fence_4.png" type="Texture" id=10]
+[ext_resource path="res://Tileset/Fence_9.png" type="Texture" id=11]
+[ext_resource path="res://Tileset/Fence_13.png" type="Texture" id=12]
+[ext_resource path="res://Tileset/Fence_12.png" type="Texture" id=13]
+[ext_resource path="res://Tileset/Fence_14.png" type="Texture" id=14]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 107.739, 107.593 )
+
+[resource]
+0/name = "Fence_1"
+0/texture = ExtResource( 1 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 0, 0, 215, 214 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 107.5, 107 )
+0/navigation_offset = Vector2( 107.5, 107 )
+0/shape_offset = Vector2( 107.5, 107 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 107.5, 107 )
+0/shape = SubResource( 1 )
+0/shape_one_way = false
+0/shape_one_way_margin = 1.0
+0/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 1 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 107.5, 107 )
+} ]
+0/z_index = 0
+1/name = "Fence_2"
+1/texture = ExtResource( 4 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 0, 0, 215, 215 )
+1/tile_mode = 0
+1/occluder_offset = Vector2( 107.5, 107.5 )
+1/navigation_offset = Vector2( 107.5, 107.5 )
+1/shape_offset = Vector2( 107.5, 107.5 )
+1/shape_transform = Transform2D( 1, 0, 0, 1, 107.5, 107.5 )
+1/shape = SubResource( 1 )
+1/shape_one_way = false
+1/shape_one_way_margin = 1.0
+1/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 1 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 107.5, 107.5 )
+} ]
+1/z_index = 0
+2/name = "Fence_3"
+2/texture = ExtResource( 3 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 0, 0, 215, 215 )
+2/tile_mode = 0
+2/occluder_offset = Vector2( 107.5, 107.5 )
+2/navigation_offset = Vector2( 107.5, 107.5 )
+2/shape_offset = Vector2( 107.5, 107.5 )
+2/shape_transform = Transform2D( 1, 0, 0, 1, 107.5, 107.5 )
+2/shape = SubResource( 1 )
+2/shape_one_way = false
+2/shape_one_way_margin = 1.0
+2/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 1 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 107.5, 107.5 )
+} ]
+2/z_index = 0
+3/name = "Fence_4"
+3/texture = ExtResource( 10 )
+3/tex_offset = Vector2( 0, 0 )
+3/modulate = Color( 1, 1, 1, 1 )
+3/region = Rect2( 0, 0, 215, 215 )
+3/tile_mode = 0
+3/occluder_offset = Vector2( 107.5, 107.5 )
+3/navigation_offset = Vector2( 107.5, 107.5 )
+3/shape_offset = Vector2( 107.5, 107.5 )
+3/shape_transform = Transform2D( 1, 0, 0, 1, 107.5, 107.5 )
+3/shape = SubResource( 1 )
+3/shape_one_way = false
+3/shape_one_way_margin = 1.0
+3/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 1 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 107.5, 107.5 )
+} ]
+3/z_index = 0
+4/name = "Fence_5"
+4/texture = ExtResource( 9 )
+4/tex_offset = Vector2( 0, 0 )
+4/modulate = Color( 1, 1, 1, 1 )
+4/region = Rect2( 0, 0, 199, 215 )
+4/tile_mode = 0
+4/occluder_offset = Vector2( 99.5, 107.5 )
+4/navigation_offset = Vector2( 99.5, 107.5 )
+4/shape_offset = Vector2( 99.5, 107.5 )
+4/shape_transform = Transform2D( 1, 0, 0, 1, 99.5, 107.5 )
+4/shape = SubResource( 1 )
+4/shape_one_way = false
+4/shape_one_way_margin = 1.0
+4/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 1 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 99.5, 107.5 )
+} ]
+4/z_index = 0
+5/name = "Fence_6"
+5/texture = ExtResource( 6 )
+5/tex_offset = Vector2( 0, 0 )
+5/modulate = Color( 1, 1, 1, 1 )
+5/region = Rect2( 0, 0, 215, 215 )
+5/tile_mode = 0
+5/occluder_offset = Vector2( 107.5, 107.5 )
+5/navigation_offset = Vector2( 107.5, 107.5 )
+5/shape_offset = Vector2( 107.5, 107.5 )
+5/shape_transform = Transform2D( 1, 0, 0, 1, 107.5, 107.5 )
+5/shape = SubResource( 1 )
+5/shape_one_way = false
+5/shape_one_way_margin = 1.0
+5/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 1 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 107.5, 107.5 )
+} ]
+5/z_index = 0
+6/name = "Fence_7"
+6/texture = ExtResource( 8 )
+6/tex_offset = Vector2( 0, 0 )
+6/modulate = Color( 1, 1, 1, 1 )
+6/region = Rect2( 0, 0, 215, 215 )
+6/tile_mode = 0
+6/occluder_offset = Vector2( 107.5, 107.5 )
+6/navigation_offset = Vector2( 107.5, 107.5 )
+6/shape_offset = Vector2( 107.5, 107.5 )
+6/shape_transform = Transform2D( 1, 0, 0, 1, 107.5, 107.5 )
+6/shape = SubResource( 1 )
+6/shape_one_way = false
+6/shape_one_way_margin = 1.0
+6/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 1 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 107.5, 107.5 )
+} ]
+6/z_index = 0
+7/name = "Fence_8"
+7/texture = ExtResource( 5 )
+7/tex_offset = Vector2( 0, 0 )
+7/modulate = Color( 1, 1, 1, 1 )
+7/region = Rect2( 0, 0, 215, 213 )
+7/tile_mode = 0
+7/occluder_offset = Vector2( 107.5, 106.5 )
+7/navigation_offset = Vector2( 107.5, 106.5 )
+7/shape_offset = Vector2( 107.5, 106.5 )
+7/shape_transform = Transform2D( 1, 0, 0, 1, 107.5, 106.5 )
+7/shape = SubResource( 1 )
+7/shape_one_way = false
+7/shape_one_way_margin = 1.0
+7/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 1 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 107.5, 106.5 )
+} ]
+7/z_index = 0
+8/name = "Fence_9"
+8/texture = ExtResource( 11 )
+8/tex_offset = Vector2( 0, 0 )
+8/modulate = Color( 1, 1, 1, 1 )
+8/region = Rect2( 0, 0, 215, 215 )
+8/tile_mode = 0
+8/occluder_offset = Vector2( 107.5, 107.5 )
+8/navigation_offset = Vector2( 107.5, 107.5 )
+8/shape_offset = Vector2( 107.5, 107.5 )
+8/shape_transform = Transform2D( 1, 0, 0, 1, 107.5, 107.5 )
+8/shape = SubResource( 1 )
+8/shape_one_way = false
+8/shape_one_way_margin = 1.0
+8/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 1 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 107.5, 107.5 )
+} ]
+8/z_index = 0
+9/name = "Fence_10"
+9/texture = ExtResource( 2 )
+9/tex_offset = Vector2( 0, 0 )
+9/modulate = Color( 1, 1, 1, 1 )
+9/region = Rect2( 0, 0, 215, 215 )
+9/tile_mode = 0
+9/occluder_offset = Vector2( 107.5, 107.5 )
+9/navigation_offset = Vector2( 107.5, 107.5 )
+9/shape_offset = Vector2( 107.5, 107.5 )
+9/shape_transform = Transform2D( 1, 0, 0, 1, 107.5, 107.5 )
+9/shape = SubResource( 1 )
+9/shape_one_way = false
+9/shape_one_way_margin = 1.0
+9/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 1 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 107.5, 107.5 )
+} ]
+9/z_index = 0
+10/name = "Fence_11"
+10/texture = ExtResource( 7 )
+10/tex_offset = Vector2( 0, 0 )
+10/modulate = Color( 1, 1, 1, 1 )
+10/region = Rect2( 0, 0, 215, 215 )
+10/tile_mode = 0
+10/occluder_offset = Vector2( 107.5, 107.5 )
+10/navigation_offset = Vector2( 107.5, 107.5 )
+10/shape_offset = Vector2( 107.5, 107.5 )
+10/shape_transform = Transform2D( 1, 0, 0, 1, 107.5, 107.5 )
+10/shape = SubResource( 1 )
+10/shape_one_way = false
+10/shape_one_way_margin = 1.0
+10/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 1 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 107.5, 107.5 )
+} ]
+10/z_index = 0
+11/name = "Fence_12"
+11/texture = ExtResource( 13 )
+11/tex_offset = Vector2( 0, 0 )
+11/modulate = Color( 1, 1, 1, 1 )
+11/region = Rect2( 0, 0, 215, 215 )
+11/tile_mode = 0
+11/occluder_offset = Vector2( 107.5, 107.5 )
+11/navigation_offset = Vector2( 107.5, 107.5 )
+11/shape_offset = Vector2( 107.5, 107.5 )
+11/shape_transform = Transform2D( 1, 0, 0, 1, 107.5, 107.5 )
+11/shape = SubResource( 1 )
+11/shape_one_way = false
+11/shape_one_way_margin = 1.0
+11/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 1 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 107.5, 107.5 )
+} ]
+11/z_index = 0
+12/name = "Fence_13"
+12/texture = ExtResource( 12 )
+12/tex_offset = Vector2( 0, 0 )
+12/modulate = Color( 1, 1, 1, 1 )
+12/region = Rect2( 0, 0, 214, 213 )
+12/tile_mode = 0
+12/occluder_offset = Vector2( 107, 106.5 )
+12/navigation_offset = Vector2( 107, 106.5 )
+12/shape_offset = Vector2( 107, 106.5 )
+12/shape_transform = Transform2D( 1, 0, 0, 1, 107, 106.5 )
+12/shape = SubResource( 1 )
+12/shape_one_way = false
+12/shape_one_way_margin = 1.0
+12/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 1 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 107, 106.5 )
+} ]
+12/z_index = 0
+13/name = "Fence_14"
+13/texture = ExtResource( 14 )
+13/tex_offset = Vector2( 0, 0 )
+13/modulate = Color( 1, 1, 1, 1 )
+13/region = Rect2( 0, 0, 215, 215 )
+13/tile_mode = 0
+13/occluder_offset = Vector2( 107.5, 107.5 )
+13/navigation_offset = Vector2( 107.5, 107.5 )
+13/shape_offset = Vector2( 107.5, 107.5 )
+13/shape_transform = Transform2D( 1, 0, 0, 1, 107.5, 107.5 )
+13/shape = SubResource( 1 )
+13/shape_one_way = false
+13/shape_one_way_margin = 1.0
+13/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 1 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 107.5, 107.5 )
+} ]
+13/z_index = 0

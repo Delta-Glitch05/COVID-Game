@@ -1,0 +1,172 @@
+[gd_scene load_steps=16 format=2]
+
+[ext_resource path="res://Tileset/Fence_1.png" type="Texture" id=1]
+[ext_resource path="res://Tileset/Fence_10.png" type="Texture" id=2]
+[ext_resource path="res://Tileset/Fence_3.png" type="Texture" id=3]
+[ext_resource path="res://Tileset/Fence_2.png" type="Texture" id=4]
+[ext_resource path="res://Tileset/Fence_8.png" type="Texture" id=5]
+[ext_resource path="res://Tileset/Fence_6.png" type="Texture" id=6]
+[ext_resource path="res://Tileset/Fence_11.png" type="Texture" id=7]
+[ext_resource path="res://Tileset/Fence_7.png" type="Texture" id=8]
+[ext_resource path="res://Tileset/Fence_5.png" type="Texture" id=9]
+[ext_resource path="res://Tileset/Fence_4.png" type="Texture" id=10]
+[ext_resource path="res://Tileset/Fence_9.png" type="Texture" id=11]
+[ext_resource path="res://Tileset/Fence_13.png" type="Texture" id=12]
+[ext_resource path="res://Tileset/Fence_12.png" type="Texture" id=13]
+[ext_resource path="res://Tileset/Fence_14.png" type="Texture" id=14]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 107.739, 107.593 )
+
+[node name="Fence_Titleset" type="Node2D"]
+
+[node name="Fence_1" type="Sprite" parent="."]
+position = Vector2( 29.2783, 25.2343 )
+scale = Vector2( 0.0415584, 0.0417754 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 0, 0, 215, 214 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Fence_1"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Fence_1/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="Fence_2" type="Sprite" parent="."]
+position = Vector2( 43.1097, 20.5037 )
+scale = Vector2( 0.0415584, 0.0415811 )
+texture = ExtResource( 4 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Fence_2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Fence_2/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="Fence_3" type="Sprite" parent="."]
+position = Vector2( 55.9557, 21.561 )
+scale = Vector2( 0.0415584, 0.042793 )
+texture = ExtResource( 3 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Fence_3"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Fence_3/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="Fence_4" type="Sprite" parent="."]
+position = Vector2( 69.1597, 21.8269 )
+scale = Vector2( 0.0415584, 0.0415811 )
+texture = ExtResource( 10 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Fence_4"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Fence_4/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="Fence_5" type="Sprite" parent="."]
+position = Vector2( 43.476, 35.452 )
+scale = Vector2( 0.0415584, 0.0413908 )
+texture = ExtResource( 9 )
+region_enabled = true
+region_rect = Rect2( 0, 0, 199, 215 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Fence_5"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Fence_5/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="Fence_6" type="Sprite" parent="."]
+position = Vector2( 59.1921, 35.8289 )
+scale = Vector2( 0.0415584, 0.0415811 )
+texture = ExtResource( 6 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Fence_6"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Fence_6/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="Fence_7" type="Sprite" parent="."]
+position = Vector2( 72.4569, 38.6434 )
+scale = Vector2( 0.0415584, 0.0415811 )
+texture = ExtResource( 8 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Fence_7"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Fence_7/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="Fence_8" type="Sprite" parent="."]
+position = Vector2( 92.2001, 35.7837 )
+scale = Vector2( 0.0415584, 0.0415811 )
+texture = ExtResource( 5 )
+region_enabled = true
+region_rect = Rect2( 0, 0, 215, 213 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Fence_8"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Fence_8/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="Fence_9" type="Sprite" parent="."]
+position = Vector2( 66.1142, 52.307 )
+scale = Vector2( 0.0415584, 0.0415811 )
+texture = ExtResource( 11 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Fence_9"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Fence_9/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="Fence_10" type="Sprite" parent="."]
+position = Vector2( 51.4882, 54.3399 )
+scale = Vector2( 0.0415585, 0.0415811 )
+texture = ExtResource( 2 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Fence_10"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Fence_10/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="Fence_11" type="Sprite" parent="."]
+position = Vector2( 96.6677, 54.6545 )
+scale = Vector2( 0.0415584, 0.0407693 )
+texture = ExtResource( 7 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Fence_11"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Fence_11/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="Fence_12" type="Sprite" parent="."]
+position = Vector2( 80.8383, 56.7769 )
+scale = Vector2( 0.0415584, 0.0415811 )
+texture = ExtResource( 13 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Fence_12"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Fence_12/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="Fence_13" type="Sprite" parent="."]
+position = Vector2( 85.3058, 23.6744 )
+scale = Vector2( 0.0415584, 0.0415811 )
+texture = ExtResource( 12 )
+region_enabled = true
+region_rect = Rect2( 0, 0, 214, 213 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Fence_13"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Fence_13/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="Fence_14" type="Sprite" parent="."]
+position = Vector2( 110.408, 36.3592 )
+scale = Vector2( 0.0415584, 0.0415811 )
+texture = ExtResource( 14 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Fence_14"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Fence_14/StaticBody2D"]
+shape = SubResource( 1 )

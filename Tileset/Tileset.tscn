@@ -1,0 +1,156 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Tileset/tileset.png" type="Texture" id=1]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 8, 7.07652 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 3.78772, 8.12489 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 8, 6.95073 )
+
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=5]
+extents = Vector2( 8, 8 )
+
+[node name="Tileset" type="Node"]
+
+[node name="Grass" type="Sprite" parent="."]
+position = Vector2( 96, 87.3215 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 120, 18, 16, 16 )
+
+[node name="Sand" type="Sprite" parent="."]
+position = Vector2( 48, 24 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 1, 1, 16, 16 )
+
+[node name="Poké_Fence_1" type="Sprite" parent="."]
+position = Vector2( 72, 24 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 103, 188, 16, 16 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Poké_Fence_1"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Poké_Fence_1/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="Poké_Fence_2" type="Sprite" parent="."]
+position = Vector2( 88, 24 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 120, 188, 16, 16 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Poké_Fence_2"]
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Poké_Fence_2/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="Poké_Fence_3" type="Sprite" parent="."]
+position = Vector2( 104, 24 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 137, 188, 16, 16 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Poké_Fence_3"]
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Poké_Fence_3/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="Poké_Fence_4" type="Sprite" parent="."]
+position = Vector2( 72, 40 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 103, 205, 16, 16 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Poké_Fence_4"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Poké_Fence_4/StaticBody2D"]
+position = Vector2( -4.26937, 0 )
+shape = SubResource( 2 )
+
+[node name="Poké_Fence_5" type="Sprite" parent="."]
+position = Vector2( 72, 56 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 103, 222, 16, 16 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Poké_Fence_5"]
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Poké_Fence_5/StaticBody2D"]
+shape = SubResource( 3 )
+
+[node name="Poké_Fence_6" type="Sprite" parent="."]
+position = Vector2( 88, 56 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 120, 222, 16, 16 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Poké_Fence_6"]
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Poké_Fence_6/StaticBody2D"]
+shape = SubResource( 3 )
+
+[node name="Poké_Fence_7" type="Sprite" parent="."]
+position = Vector2( 104, 56 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 137, 222, 16, 16 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Poké_Fence_7"]
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Poké_Fence_7/StaticBody2D"]
+shape = SubResource( 3 )
+
+[node name="Poké_Fence_8" type="Sprite" parent="."]
+position = Vector2( 104, 40 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 137, 205, 16, 16 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Poké_Fence_8"]
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Poké_Fence_8/StaticBody2D"]
+position = Vector2( 4.22009, 0 )
+shape = SubResource( 2 )
+
+[node name="Poké_Fence_9" type="Sprite" parent="."]
+position = Vector2( 128, 40 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 103, 239, 16, 16 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Poké_Fence_9"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Poké_Fence_9/StaticBody2D"]
+shape = SubResource( 4 )
+
+[node name="Poké_Fence_10" type="Sprite" parent="."]
+position = Vector2( 144, 40 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 120, 239, 16, 16 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Poké_Fence_10"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Poké_Fence_10/StaticBody2D"]
+shape = SubResource( 5 )
+
+[node name="Bush" type="Sprite" parent="."]
+position = Vector2( 88, 40 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 120, 205, 16, 16 )
+
+[node name="Green" type="Sprite" parent="."]
+position = Vector2( 152, 86.1615 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 103, 35, 16, 16 )

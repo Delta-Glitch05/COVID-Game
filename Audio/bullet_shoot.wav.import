@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/bullet_shoot.wav-1de5b4375dfcb2591529c1d5151676da.sample"
+
+[deps]
+
+source_file="res://Audio/bullet_shoot.wav"
+dest_files=[ "res://.import/bullet_shoot.wav-1de5b4375dfcb2591529c1d5151676da.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

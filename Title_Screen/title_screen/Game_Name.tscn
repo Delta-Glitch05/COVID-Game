@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Title_Screen/title_screen/fonts/montserrat_eb_48.tres" type="DynamicFont" id=1]
+
+[node name="Game_Name" type="Label"]
+anchor_top = 0.00535714
+anchor_bottom = 0.00535714
+margin_left = -1.49841
+margin_top = 339.786
+margin_right = 1422.5
+margin_bottom = 425.786
+custom_fonts/font = ExtResource( 1 )
+custom_colors/font_color_shadow = Color( 1, 0.596078, 0, 1 )
+custom_constants/shadow_offset_y = 5
+text = "COVID Game"
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}

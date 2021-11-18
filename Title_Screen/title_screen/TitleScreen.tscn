@@ -1,0 +1,112 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Title_Screen/title_screen/title_screen.gd" type="Script" id=1]
+[ext_resource path="res://Entities/Enemy/Enemy.png" type="Texture" id=2]
+[ext_resource path="res://Title_Screen/title_screen/buttons/NewGameButton.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Title_Screen/title_screen/fonts/montserrat_eb_48.tres" type="DynamicFont" id=4]
+[ext_resource path="res://Title_Screen/fade_in/FadeIn.tscn" type="PackedScene" id=8]
+[ext_resource path="res://Title_Screen/title_screen/Game_Name.tscn" type="PackedScene" id=9]
+
+[node name="TitleScreen" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 28.0
+margin_top = 24.0
+margin_right = 28.0
+margin_bottom = 24.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -1654.0
+margin_top = -900.0
+margin_right = 1776.0
+margin_bottom = 1057.0
+color = Color( 0.141176, 0.180392, 0.172549, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Menu" type="VBoxContainer" parent="."]
+margin_left = 2.0
+margin_top = 49.0
+margin_right = 1042.0
+margin_bottom = 609.0
+custom_constants/separation = 20
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Logo" type="TextureRect" parent="Menu"]
+visible = false
+margin_right = 1040.0
+margin_bottom = 128.0
+texture = ExtResource( 2 )
+stretch_mode = 4
+
+[node name="CenterRow" type="HBoxContainer" parent="Menu"]
+margin_right = 1040.0
+margin_bottom = 268.0
+size_flags_vertical = 3
+
+[node name="Buttons" type="VBoxContainer" parent="Menu/CenterRow"]
+margin_right = 518.0
+margin_bottom = 268.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_constants/separation = 20
+alignment = 1
+
+[node name="NewGameButton" parent="Menu/CenterRow/Buttons" instance=ExtResource( 3 )]
+margin_top = 104.0
+margin_right = 518.0
+margin_bottom = 164.0
+
+[node name="CenterContainer" type="CenterContainer" parent="Menu/CenterRow"]
+margin_left = 522.0
+margin_right = 1040.0
+margin_bottom = 268.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Characters" type="TextureRect" parent="Menu/CenterRow/CenterContainer"]
+margin_left = 131.0
+margin_top = 6.0
+margin_right = 387.0
+margin_bottom = 262.0
+texture = ExtResource( 2 )
+
+[node name="VersionLabel" type="Label" parent="Menu"]
+margin_top = 508.0
+margin_right = 1040.0
+margin_bottom = 560.0
+size_flags_vertical = 10
+size_flags_stretch_ratio = 1.01
+custom_colors/font_color_shadow = Color( 1, 0.596078, 0, 1 )
+custom_fonts/font = ExtResource( 4 )
+text = "Versione 2.0.0"
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 494.538, 289.303 )
+current = true
+zoom = Vector2( 1.2, 1.12 )
+
+[node name="Game_Name" parent="." instance=ExtResource( 9 )]
+anchor_top = -0.202357
+anchor_bottom = 0.317643
+margin_left = 0.0
+margin_top = 100.454
+margin_right = 1040.0
+margin_bottom = 152.454
+
+[node name="FadeIn" parent="." instance=ExtResource( 8 )]
+margin_left = -1654.0
+margin_top = -900.0
+margin_right = 1776.0
+margin_bottom = 1057.0
+
+[connection signal="fade_finished" from="FadeIn" to="." method="_on_FadeIn_fade_finished"]
